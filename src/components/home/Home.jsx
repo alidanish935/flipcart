@@ -5,6 +5,7 @@ import Slide from './Slide';
 import { Box, styled } from '@mui/material';
 import MidSlides from './MidSlides';
 import MidSection from './MidSection';
+import Footer from './Footer';
 
 const Component = styled(Box)({
   padding: '10px',
@@ -22,8 +23,8 @@ const Home = () => {
         <MidSection />
         <Slide title="Best Discounts for You" timer={false} autoPlay={false}/>
         <Slide title="Season's Top Pick" timer={false} autoPlay={false}/>
-        
       </Component>
+        <Footer/>
     </>
     
   )
